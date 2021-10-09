@@ -34,7 +34,7 @@ namespace LibreriaWebApi
 
             app.UseCors(options =>
                 options
-                    .WithOrigins("http://localhost:3200")
+                    .WithOrigins("http://localhost:3000")
                     .WithMethods("POST","PUT","DELETE","GET")
                     .AllowAnyHeader()
             );
