@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net5.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/c23d83e7-3fc4-453c-bf26-9726ecbb7ffd/resourceGroups/Alphashop/providers/Microsoft.Web/sites/libreriawebapi"
+}

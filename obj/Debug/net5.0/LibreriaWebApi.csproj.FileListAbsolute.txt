@@ -21,3 +21,5 @@ H:\CSharp\Udemy\Azure\WebApi\LibreriaWebApi\obj\Debug\net5.0\LibreriaWebApi.dll
 H:\CSharp\Udemy\Azure\WebApi\LibreriaWebApi\obj\Debug\net5.0\ref\LibreriaWebApi.dll
 H:\CSharp\Udemy\Azure\WebApi\LibreriaWebApi\obj\Debug\net5.0\LibreriaWebApi.pdb
 H:\CSharp\Udemy\Azure\WebApi\LibreriaWebApi\obj\Debug\net5.0\LibreriaWebApi.genruntimeconfig.cache
+H:\CSharp\Udemy\Azure\WebApi\LibreriaWebApi\bin\Debug\net5.0\AutoMapper.dll
+H:\CSharp\Udemy\Azure\WebApi\LibreriaWebApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

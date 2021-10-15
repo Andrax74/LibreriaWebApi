@@ -11,3 +11,6 @@ ENTRYPOINT ["dotnet", "LibreriaWebApi.dll"]
 # docker login
 # docker tag [name image]:[tag] [name docker hub repository]:[tag]
 # docker push [name image]:[tag]
+### Procedura di Push in ACR
+#az acr login --name alphashopregistry
+#docker tag [name image]:[tag] alphashopregistry.azurecr.io/[name image]:[tag]
