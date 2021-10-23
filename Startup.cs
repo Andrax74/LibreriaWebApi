@@ -30,10 +30,14 @@ namespace LibreriaWebApi
 
             app.UseRouting();
 
+            //var WebAppUri = System.Environment.GetEnvironmentVariable("WEBAPP_URI");
+
             app.UseCors(options =>
                 options
-                    .WithOrigins("http://localhost:3000")
-                    .WithMethods("POST","PUT","DELETE","GET")
+                    .AllowAnyOrigin() //TODO Da Eliminare al più presto
+                    //.WithOrigins(WebAppUri)
+                    //.WithMethods("POST","PUT","DELETE","GET")
+                    .AllowAnyMethod()
                     .AllowAnyHeader()
             );
 

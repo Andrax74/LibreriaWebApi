@@ -289,11 +289,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "h:\\CSharp\\Udemy\\Azure\\WebApi\\LibreriaWebApi\\LibreriaWebApi.csproj",
+      "projectUniqueName": "J:\\CSharp\\Udemy\\Azure\\WebApi\\LibreriaWebApi\\LibreriaWebApi.csproj",
       "projectName": "LibreriaWebApi",
-      "projectPath": "h:\\CSharp\\Udemy\\Azure\\WebApi\\LibreriaWebApi\\LibreriaWebApi.csproj",
+      "projectPath": "J:\\CSharp\\Udemy\\Azure\\WebApi\\LibreriaWebApi\\LibreriaWebApi.csproj",
       "packagesPath": "C:\\Users\\Nicola\\.nuget\\packages\\",
-      "outputPath": "h:\\CSharp\\Udemy\\Azure\\WebApi\\LibreriaWebApi\\obj\\",
+      "outputPath": "J:\\CSharp\\Udemy\\Azure\\WebApi\\LibreriaWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

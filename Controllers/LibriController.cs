@@ -44,10 +44,10 @@ namespace LibreriaWebApi.Controllers
             {
                 foreach (var libro in libri)
                 {
-                    double Prezzo = await this.getPriceArtAsync(libro.Isbn);
+                    
+                    string Prezzo = await this.getPriceArtAsync(libro.Isbn);
                     LibriDto libroDto =  mapper.Map<LibriDto>(libro);
                     libroDto.Prezzo = Prezzo;
-
                     libriDto.Add(libroDto);
                     
                 }
@@ -56,11 +56,11 @@ namespace LibreriaWebApi.Controllers
             return Ok(libriDto);
         }
 
-        private async Task<double> getPriceArtAsync(string Isbn)
+        private async Task<string> getPriceArtAsync(string Isbn)
         {
             var priceApiUri = System.Environment.GetEnvironmentVariable("PRICE_API_URI");
 
-            double prezzo = 0;
+            string prezzo = "0";
 
             using (var client = new HttpClient())
             {
@@ -75,13 +75,13 @@ namespace LibreriaWebApi.Controllers
                     
                     Console.WriteLine($"{result}");
                     var response = await result.Content.ReadAsStringAsync();
-                    prezzo = Convert.ToDouble(response.Replace(".",","));
+                    prezzo = response.Replace(".",",");
 
                     Console.WriteLine($"Prezzo Ottenuto: {prezzo}");
                 }
                 catch (HttpRequestException ex)
                 {
-                    throw new Exception("Errore: Impossibile contattare il servizio PriceArt. " + ex.Message);
+                    Console.WriteLine("Errore: Impossibile contattare il servizio PriceArt. " + ex.Message);
                 }
                 
             }

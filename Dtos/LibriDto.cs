@@ -7,6 +7,6 @@ namespace LibreriaWebApi.Dtos
         public string Sinossi { get; set; }
         public string Immagine { get; set; } 
         public string Autore { get; set; }
-        public double Prezzo { get; set; }
+        public string Prezzo { get; set; }
     }
 }

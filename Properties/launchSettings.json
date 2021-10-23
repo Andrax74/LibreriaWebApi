@@ -22,7 +22,8 @@
       "applicationUrl": "http://localhost:5051",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "PRICE_API_URI": "http://localhost:5061"
+        "PRICE_API_URI": "http://localhost:5061",
+        "WEBAPP_URI" : "http://localhost:3000"
       }
     }
   }
