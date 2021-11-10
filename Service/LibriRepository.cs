@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 //using System.Threading.Tasks;
 using LibreriaWebApi.Models;
 
@@ -16,6 +17,13 @@ namespace LibreriaWebApi.Service
         public ICollection<Libri> SelAll()
         {
             return this.libri;
+        }
+
+        public Libri SelLibroById(string ISBN)
+        {
+            return this.libri
+                .Where(p => p.Isbn.Equals(ISBN))
+                .FirstOrDefault();
         }
     }
 }

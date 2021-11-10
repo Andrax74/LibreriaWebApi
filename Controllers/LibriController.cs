@@ -56,6 +56,32 @@ namespace LibreriaWebApi.Controllers
             return Ok(libriDto);
         }
 
+        [HttpGet("{ISBN}")]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(LibriDto))]
+        public async Task<ActionResult<LibriDto>> GetLibroAsync(string ISBN)
+        {
+            Console.WriteLine(DateTime.Now);
+            Console.WriteLine($"***** Ottenimento dati libro *****");
+
+            var libro =  this.libriRepository.SelLibroById(ISBN);
+
+            LibriDto libroDto;
+
+            if (libro == null)
+            {
+                return NotFound(new ErrMsg(string.Format($"Non è stato trovato il libro con id {ISBN}"),"404"));
+            }
+            else
+            {
+                string Prezzo = await this.getPriceArtAsync(libro.Isbn);
+                libroDto =  mapper.Map<LibriDto>(libro);
+                libroDto.Prezzo = Prezzo;        
+            }
+
+            return Ok(libroDto);
+        }
+
         private async Task<string> getPriceArtAsync(string Isbn)
         {
             var priceApiUri = System.Environment.GetEnvironmentVariable("PRICE_API_URI");

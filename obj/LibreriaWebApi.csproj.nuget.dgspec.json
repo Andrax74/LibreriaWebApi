@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "J:\\CSharp\\Udemy\\Azure\\WebApi\\LibreriaWebApi\\LibreriaWebApi.csproj": {}
+    "H:\\CSharp\\Udemy\\Azure\\WebApi\\LibreriaWebApi\\LibreriaWebApi.csproj": {}
   },
   "projects": {
-    "J:\\CSharp\\Udemy\\Azure\\WebApi\\LibreriaWebApi\\LibreriaWebApi.csproj": {
+    "H:\\CSharp\\Udemy\\Azure\\WebApi\\LibreriaWebApi\\LibreriaWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "J:\\CSharp\\Udemy\\Azure\\WebApi\\LibreriaWebApi\\LibreriaWebApi.csproj",
+        "projectUniqueName": "H:\\CSharp\\Udemy\\Azure\\WebApi\\LibreriaWebApi\\LibreriaWebApi.csproj",
         "projectName": "LibreriaWebApi",
-        "projectPath": "J:\\CSharp\\Udemy\\Azure\\WebApi\\LibreriaWebApi\\LibreriaWebApi.csproj",
+        "projectPath": "H:\\CSharp\\Udemy\\Azure\\WebApi\\LibreriaWebApi\\LibreriaWebApi.csproj",
         "packagesPath": "C:\\Users\\Nicola\\.nuget\\packages\\",
-        "outputPath": "J:\\CSharp\\Udemy\\Azure\\WebApi\\LibreriaWebApi\\obj\\",
+        "outputPath": "H:\\CSharp\\Udemy\\Azure\\WebApi\\LibreriaWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

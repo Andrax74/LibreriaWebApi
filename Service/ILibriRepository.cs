@@ -7,5 +7,6 @@ namespace LibreriaWebApi.Service
     public interface ILibriRepository
     {
         ICollection<Libri> SelAll();
+        Libri SelLibroById(string ISBN);
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2nJ90V4XkB8bZh+bw+FgC114i1IJWQtW4FRawKjXh1sJbuQlaHpHuteLxJs2qUF6VrN6b4ueZF3t2Opq6vsnZA==",
+  "dgSpecHash": "9CRykZTqHW87zO0G/jRJhGDrTjxgBJ5s9Tf/stulJW3wf3DZn1j0d4/Sw8RCslQZn1l4nZ91nV4FM+QutdjwIQ==",
   "success": true,
-  "projectFilePath": "J:\\CSharp\\Udemy\\Azure\\WebApi\\LibreriaWebApi\\LibreriaWebApi.csproj",
+  "projectFilePath": "H:\\CSharp\\Udemy\\Azure\\WebApi\\LibreriaWebApi\\LibreriaWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nicola\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Nicola\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
